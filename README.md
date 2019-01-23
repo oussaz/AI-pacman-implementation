@@ -7,8 +7,8 @@ In this part, Pacman is chasing invisible ghosts using Bayesian inference with d
 First we assume that ghosts' positions are stationary, and Pacman updates its beliefs of the ghosts distribution using only sensors' data.
 
 Pacman updates updates its beliefs distribution using the following equation :
-![ExactInfereq](/img/tracking/exactinferenceupdate.png)
 
+![Exactinference](/img/tracking/exactinferenceupdate.png)
 
 The results are given in the following captions :
 
