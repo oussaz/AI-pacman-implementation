@@ -12,7 +12,7 @@ The results are given in the following captions :
 
 <p>
   <img src="/img/tracking/2.png" title="After few iterations : The lighter the color, the higher the probability">
-  
+  <figcaption>After few iterations : The lighter the color, the higher the probability</figcaption>
 </p>
 
 ![Later iterations](/img/tracking/2.png?raw=true "After few iterations : The lighter the color, the higher the probability")
