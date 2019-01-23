@@ -9,11 +9,17 @@ First we assume that ghosts' positions are stationary, and Pacman updates its be
 The results are given in the following captions : 
 
 
-<p>  
-  <img src="/img/tracking/1.png" title="First iterations : The lighter the color, the higher the probability">
-  <figcaption>First iterations : The lighter the color, the higher the probability</figcaption>
-  <img src="/img/tracking/2.png" title="After few iterations : The lighter the color, the higher the probability">
-  <figcaption>After few iterations : The lighter the color, the higher the probability</figcaption>
+<p> 
+  <div id="banner">
+  	 <div class="inline-block">
+      <img src="/img/tracking/1.png" title="First iterations : The lighter the color, the higher the probability">
+      <figcaption>First iterations : The lighter the color, the higher the probability</figcaption>
+     </div>
+     <div class="inline-block">
+      <img src="/img/tracking/2.png" title="After few iterations : The lighter the color, the higher the probability">
+      <figcaption>After few iterations : The lighter the color, the higher the probability</figcaption>
+     </div>
+  </div>
 </p>
 
 ![Later iterations](/img/tracking/2.png?raw=true "After few iterations : The lighter the color, the higher the probability")
