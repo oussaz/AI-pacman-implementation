@@ -13,11 +13,9 @@ The results are given in the following captions :
   <div id="banner">
   	 <div class="inline-block">
       <img src="/img/tracking/1.png" title="First iterations : The lighter the color, the higher the probability">
-      <figcaption>First iterations</figcaption>
      </div>
      <div class="inline-block">
       <img src="/img/tracking/2.png" title="After few iterations : The lighter the color, the higher the probability">
-      <figcaption>After few iterations</figcaption>
      </div>
   </div>
 </p>
