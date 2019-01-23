@@ -4,12 +4,21 @@ This repository contains all my implementations of AI algorithms in Pacman game.
 ## Tracking :
 In this part, Pacman is chasing invisible ghosts using Bayesian inference with data provided by its sensors.
 ### Exact inference :
-First we assume that ghosts' positions are stationary, and Pacman updates its beliefs of the ghosts distribution using only sensors' data.
-
-Pacman updates updates its beliefs distribution using the following equation :
+First we assume that ghosts' positions are stationary, and Pacman updates its beliefs of the ghosts locations distribution using only sensors' data using the following equation :
 
 ![Exactinference](/img/tracking/exactinferenceupdate.png)
 
+Where :
+
+![Exactinference](/img/tracking/B_n.png) : is the prior probability
+
+![Exactinference](/img/tracking/B_n1.png) : is the posterior probability
+
+![Exactinference](/img/tracking/Pr.png) : is the prior probability
+
+
+
+Given that all positions are equally likely in the beginning.
 The results are given in the following captions :
 
 | ![Firstiter](/img/tracking/1.png) | ![Lateriter](/img/tracking/2.png) |
