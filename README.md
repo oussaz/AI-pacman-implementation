@@ -22,7 +22,7 @@ Given that all positions are equally likely in the beginning.
 The results are given in the following captions :
 
 | ![Firstiter](/img/tracking/1.png) | ![Lateriter](/img/tracking/2.png) |
-|:---:|:---:|:---:|
+|:---:|:---:|
 | First iterations : The lighter the color, the higher the probability | Later iterations : The lighter the color, the higher the probability |
 
 Because the error in the sensors data has a mean of zero, the probability of the right location converges to one.
