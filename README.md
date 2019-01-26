@@ -64,7 +64,7 @@ The space complexity is reduced to storing particles rather than states, while t
 Because the positions of ghosts can be dependent, we use the joint distribution of the ghosts positions using dynamic Bayes net :
 
 <p align="center">
-![](/img/tracking/jointparticlefilter.png)
+<img src="/img/tracking/jointparticlefilter.png">
 </p>
 
 Pacman can now easily keep track of every invisible ghost :
