@@ -34,12 +34,12 @@ As the ghost can only make one step at a time, the current position of the ghost
 
 
 <p align="center">
-![](/img/tracking/timeelapsegif.gif)
+<img src="/img/tracking/timeelapsegif.gif">
 </p>
 
 Combining data provided by the sensors and given older beliefs of the ghosts position, we can easily chase invisible ghosts using a greedy agent :
 <p align="center">
-![](/img/tracking/gamescore.gif)
+<img src="/img/tracking/gamescore.gif">
 </p>
 
 
@@ -56,7 +56,7 @@ Particle filtering consists basically of using particles and sampling to approxi
 **Resampling**: We resample using the previous weights to create new particles
 
 <p align="center">
-![](/img/tracking/particlefiltering.gif)
+<img src="/img/tracking/particlefiltering.gif">
 </p>
 
 The space complexity is reduced to storing particles rather than states, while the time complexity is linear in the number of particles.
@@ -71,5 +71,5 @@ Pacman can now easily keep track of every invisible ghost :
 
 <p align="center">
 <img src="./img/tracking/DBN.gif">
-![](/img/tracking/DBN.gif)
+
 </p>
