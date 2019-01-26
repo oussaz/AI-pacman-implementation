@@ -70,5 +70,6 @@ Because the positions of ghosts can be dependent, we use the joint distribution 
 Pacman can now easily keep track of every invisible ghost :
 
 <p align="center">
+<img src="./img/tracking/DBN.gif">
 ![](/img/tracking/DBN.gif)
 </p>
